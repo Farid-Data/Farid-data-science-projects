@@ -42,3 +42,5 @@ GitHub: https://github.com/Farid-Data
 LinkedIn: https://www.linkedin.com/in/thefaridkarami
 
 Email: F.Karami.2002.e@gmail.com
+
+Kaggle: https://www.kaggle.com/faridkarami
