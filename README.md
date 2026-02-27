@@ -1,128 +1,44 @@
-🚀 Farid Karami – Data Scientist
-👋 About Me
+Farid Karami
 
-I am a Data Scientist with a strong foundation in statistics, machine learning, and analytical problem solving. I focus on building reliable models, extracting business insights, and understanding the mathematical foundations behind algorithms.
+Data Scientist | ML | AI Systems
 
-My work emphasizes structured experimentation, proper validation, and clean, interpretable code.
+About
 
-🧠 Core Competencies
-📊 Data Analysis
+Data Scientist building machine learning models with strong statistical foundations and structured evaluation.
+Currently expanding into Deep Learning, model deployment, and full-stack AI systems.
 
-Exploratory Data Analysis (EDA)
+Skills
 
-Data Cleaning & Preprocessing
+Machine Learning
+Linear & Logistic Regression, Decision Trees, Random Forest, SVM, KNN, AdaBoost
+Hyperparameter Tuning, Cross-Validation, ROC-AUC
 
-Feature Engineering
+Data & Analytics
+EDA, Feature Engineering, Data Cleaning, Statistical Analysis
 
-Handling Missing Data
+Tools
+Python, Pandas, Scikit-learn, SQL Server
+Matplotlib, Seaborn, Plotly, Dash
+Git
 
-Correlation Analysis (Pearson / Spearman)
-
-Statistical Thinking
-
-🤖 Machine Learning
-
-Linear Regression
-
-Logistic Regression
-
-Decision Trees
-
-Random Forest
-
-KNN
-
-SVM
-
-AdaBoost
-
-Hyperparameter Tuning (GridSearchCV / RandomizedSearchCV)
-
-Cross-Validation
-
-Model Evaluation (Accuracy, Precision, Recall, F1, ROC-AUC)
-
-📈 Data Visualization
-
-Matplotlib (architecture understanding)
-
-Seaborn (statistical visualization)
-
-Plotly
-
-Dash (interactive dashboards)
-
-🛠 Tools & Technologies
-
-Python
-
-Pandas
-
-Scikit-learn
-
-SQL Server
-
-Jupyter Notebook
-
-Git & GitHub
-
-Currently Expanding Into:
-
+Expanding Into
+Deep Learning (Neural Networks)
 Model Deployment (FastAPI)
+Docker & Containerization
+Full-Stack AI Systems
 
-Docker
+Projects
 
-Deep Learning
+Titanic Survival Prediction
+End-to-end preprocessing, model comparison, tuning, evaluation
 
-📂 Featured Projects
-🔹 Titanic Survival Prediction
+ML Model Benchmark
+Algorithm comparison, bias–variance analysis, structured evaluation
 
-Data preprocessing (missing value handling, encoding, scaling)
-
-Feature engineering
-
-Model comparison across multiple algorithms
-
-Hyperparameter tuning
-
-Performance evaluation and interpretation
-
-🔹 Machine Learning Model Benchmark
-
-Compared supervised learning algorithms
-
-Applied structured hyperparameter tuning
-
-Evaluated bias vs variance trade-offs
-
-Produced performance comparison reports
-
-📊 Technical Philosophy
-
-Prefer interpretable models before complex ones
-
-Validate assumptions before training
-
-Measure everything
-
-Avoid overfitting through proper cross-validation
-
-Prioritize clarity over unnecessary complexity
-
-🎯 Current Goals
-
-Build production-ready ML pipelines
-
-Deploy models via API
-
-Containerize ML systems with Docker
-
-Become fully job-ready for US-based data roles
-
-📫 Contact
+Contact
 
 GitHub: https://github.com/Farid-Data
 
-Email: F.Karami.2002.e@gmail.com
+LinkedIn: https://www.linkedin.com/in/thefaridkarami
 
-LinkedIn: www.linkedin.com/in/thefaridkarami
+Email: F.Karami.2002.e@gmail.com
