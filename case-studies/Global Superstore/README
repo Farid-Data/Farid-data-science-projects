@@ -1,6 +1,6 @@
-# 📊 Global Superstore Profit Prediction
+📊 Global Superstore Profit Prediction
 
-## Overview
+Overview
 
 This project focuses on predicting **profit** using the Global Superstore dataset. The goal is to build and compare multiple machine learning models, identify the most effective approach, and gain insights into the factors that influence profitability.
 
@@ -8,21 +8,21 @@ The project follows a complete machine learning workflow, including data cleanin
 
 ---
 
-## Objective
+Objective
 
 Develop a regression model capable of predicting profit based on sales information, customer segments, markets, product categories, shipping details, and seasonal patterns.
 
-**Target Variable:**
+Target Variable:
 
-* Profit
+ Profit
 
----
 
-## Dataset
+
+ Dataset
 
 The Global Superstore dataset contains transactional sales records from multiple international markets.
 
-### Dataset Characteristics
+Dataset Characteristics
 
 * Approximately 51,000 records
 * Numerical features
@@ -32,13 +32,13 @@ The Global Superstore dataset contains transactional sales records from multiple
 
 ---
 
-## Data Preprocessing
+ Data Preprocessing
 
 The following preprocessing steps were performed:
 
-### Data Cleaning
+ Data Cleaning
 
-* Removed identifier columns:
+Removed identifier columns:
 
   * Customer ID
   * Customer Name
@@ -46,12 +46,12 @@ The following preprocessing steps were performed:
   * Product ID
   * Other non-informative fields
 
-### Date Processing
+ Date Processing
 
 * Converted `Order Date` and `Ship Date` to datetime format
 * Extracted time-related information for feature engineering
 
-### Feature Engineering
+ Feature Engineering
 
 Created new features including:
 
@@ -64,8 +64,7 @@ Seasons were generated using week numbers and grouped into:
 * Spring
 * Summer
 * Fall
-
-### Categorical Encoding
+ Categorical Encoding
 
 Applied One-Hot Encoding to:
 
@@ -75,36 +74,36 @@ Applied One-Hot Encoding to:
 * Order Priority
 * Season
 
-### Feature Selection
+Feature Selection
 
-Used **Lasso Regression (L1 Regularization)** to identify features with zero coefficients and remove non-contributing variables.
+Used Lasso Regression (L1 Regularization)to identify features with zero coefficients and remove non-contributing variables.
 
 ---
 
-## Machine Learning Models
+ Machine Learning Models
 
 The following regression models were implemented and evaluated:
 
-### Linear Models
+ Linear Models
 
 * Linear Regression
 * Ridge Regression (L2)
 * Lasso Regression (L1)
 * Elastic Net
 
-### Distance-Based Models
+Distance-Based Models
 
 * K-Nearest Neighbors Regressor (KNN)
 
-### Kernel-Based Models
+Kernel-Based Models
 
 * Support Vector Regression (SVR)
 
-### Tree-Based Models
+Tree-Based Models
 
 * Decision Tree Regressor
 
-### Ensemble Models
+ Ensemble Models
 
 * Bagging Regressor
 * Random Forest Regressor
@@ -112,7 +111,7 @@ The following regression models were implemented and evaluated:
 
 ---
 
-## Evaluation Metrics
+ Evaluation Metrics
 
 Models were evaluated using:
 
@@ -123,9 +122,9 @@ Models were evaluated using:
 
 ---
 
-## Key Findings
+ Key Findings
 
-### Model Comparison
+ Model Comparison
 
 Tree-based ensemble methods significantly outperformed linear and distance-based models.
 
@@ -137,7 +136,7 @@ Key observations:
 * Random Forest provided the strongest performance among tested models.
 * Gradient Boosting was explored as an advanced boosting approach.
 
-### Business Insights
+Business Insights
 
 * Profit exhibits strong nonlinear relationships with sales-related variables.
 * Market and category information contribute significantly to prediction performance.
@@ -145,13 +144,13 @@ Key observations:
 
 ---
 
-## Technologies Used
+ Technologies Used
 
-### Programming Language
+ Programming Language
 
 * Python
 
-### Libraries
+ Libraries
 
 * pandas
 * NumPy
@@ -159,7 +158,7 @@ Key observations:
 * Seaborn
 * scikit-learn
 
-### Machine Learning Techniques
+Machine Learning Techniques
 
 * Feature Engineering
 * One-Hot Encoding
@@ -168,9 +167,9 @@ Key observations:
 * Hyperparameter Tuning
 * Model Evaluation
 
----
 
-## Project Workflow
+
+ Project Workflow
 
 ```text
 Data Collection
@@ -192,11 +191,9 @@ Model Evaluation
 Model Comparison
       ↓
 Final Conclusions
-```
 
----
 
-## Future Improvements
+Future Improvements
 
 * Hyperparameter optimization using GridSearchCV and RandomizedSearchCV
 * XGBoost implementation
@@ -205,11 +202,11 @@ Final Conclusions
 * Error analysis and residual diagnostics
 * Model deployment using Streamlit or Flask
 
----
 
-## Author
 
-**Farid Karami**
+Author
+
+Farid Karami
 
 Computer Engineering Student | Data Science Enthusiast
 
