@@ -1,0 +1,216 @@
+# 📊 Global Superstore Profit Prediction
+
+## Overview
+
+This project focuses on predicting **profit** using the Global Superstore dataset. The goal is to build and compare multiple machine learning models, identify the most effective approach, and gain insights into the factors that influence profitability.
+
+The project follows a complete machine learning workflow, including data cleaning, feature engineering, feature selection, model training, evaluation, and comparison.
+
+---
+
+## Objective
+
+Develop a regression model capable of predicting profit based on sales information, customer segments, markets, product categories, shipping details, and seasonal patterns.
+
+**Target Variable:**
+
+* Profit
+
+---
+
+## Dataset
+
+The Global Superstore dataset contains transactional sales records from multiple international markets.
+
+### Dataset Characteristics
+
+* Approximately 51,000 records
+* Numerical features
+* Categorical features
+* Date features
+* Real-world business data with noise and outliers
+
+---
+
+## Data Preprocessing
+
+The following preprocessing steps were performed:
+
+### Data Cleaning
+
+* Removed identifier columns:
+
+  * Customer ID
+  * Customer Name
+  * Order ID
+  * Product ID
+  * Other non-informative fields
+
+### Date Processing
+
+* Converted `Order Date` and `Ship Date` to datetime format
+* Extracted time-related information for feature engineering
+
+### Feature Engineering
+
+Created new features including:
+
+* Year
+* Season
+
+Seasons were generated using week numbers and grouped into:
+
+* Winter
+* Spring
+* Summer
+* Fall
+
+### Categorical Encoding
+
+Applied One-Hot Encoding to:
+
+* Market
+* Segment
+* Category
+* Order Priority
+* Season
+
+### Feature Selection
+
+Used **Lasso Regression (L1 Regularization)** to identify features with zero coefficients and remove non-contributing variables.
+
+---
+
+## Machine Learning Models
+
+The following regression models were implemented and evaluated:
+
+### Linear Models
+
+* Linear Regression
+* Ridge Regression (L2)
+* Lasso Regression (L1)
+* Elastic Net
+
+### Distance-Based Models
+
+* K-Nearest Neighbors Regressor (KNN)
+
+### Kernel-Based Models
+
+* Support Vector Regression (SVR)
+
+### Tree-Based Models
+
+* Decision Tree Regressor
+
+### Ensemble Models
+
+* Bagging Regressor
+* Random Forest Regressor
+* Gradient Boosting Regressor
+
+---
+
+## Evaluation Metrics
+
+Models were evaluated using:
+
+* Mean Absolute Error (MAE)
+* Mean Squared Error (MSE)
+* Root Mean Squared Error (RMSE)
+* R² Score
+
+---
+
+## Key Findings
+
+### Model Comparison
+
+Tree-based ensemble methods significantly outperformed linear and distance-based models.
+
+Key observations:
+
+* KNN and SVR struggled with the high-dimensional encoded dataset.
+* Decision Trees captured nonlinear patterns but showed limitations.
+* Bagging improved model stability.
+* Random Forest provided the strongest performance among tested models.
+* Gradient Boosting was explored as an advanced boosting approach.
+
+### Business Insights
+
+* Profit exhibits strong nonlinear relationships with sales-related variables.
+* Market and category information contribute significantly to prediction performance.
+* Ensemble methods are more effective than simple linear approaches for this dataset.
+
+---
+
+## Technologies Used
+
+### Programming Language
+
+* Python
+
+### Libraries
+
+* pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* scikit-learn
+
+### Machine Learning Techniques
+
+* Feature Engineering
+* One-Hot Encoding
+* Regularization
+* Ensemble Learning
+* Hyperparameter Tuning
+* Model Evaluation
+
+---
+
+## Project Workflow
+
+```text
+Data Collection
+      ↓
+Data Cleaning
+      ↓
+Feature Engineering
+      ↓
+Encoding
+      ↓
+Feature Selection
+      ↓
+Train/Test Split
+      ↓
+Model Training
+      ↓
+Model Evaluation
+      ↓
+Model Comparison
+      ↓
+Final Conclusions
+```
+
+---
+
+## Future Improvements
+
+* Hyperparameter optimization using GridSearchCV and RandomizedSearchCV
+* XGBoost implementation
+* LightGBM implementation
+* Feature importance analysis
+* Error analysis and residual diagnostics
+* Model deployment using Streamlit or Flask
+
+---
+
+## Author
+
+**Farid Karami**
+
+Computer Engineering Student | Data Science Enthusiast
+
+Focused on machine learning, data analysis, and building real-world data science projects.
