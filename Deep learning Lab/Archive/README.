@@ -1,0 +1,61 @@
+# 📦 Archive
+
+This folder is my personal archive for files, resources, references, and materials that I want to keep safely stored and accessible through GitHub.
+
+## 📁 Purpose
+
+The archive may contain:
+
+* 📚 Books and PDF files
+* 📝 Notes and documents
+* 💻 Code snippets and experiments
+* 📊 Datasets and small data files
+* 🖼️ Images and visual resources
+* 🎓 Learning materials
+* 📋 Templates
+* 🔧 Configuration files
+* 📦 Miscellaneous resources
+* 🗂️ Old or inactive project files
+* 🔗 Useful references and resources
+
+## 🗃️ Organization
+
+Files may be organized into subfolders when necessary.
+
+```text
+Archive/
+├── Books/
+├── Documents/
+├── Learning/
+├── Notes/
+├── Resources/
+├── Templates/
+├── Code/
+├── Datasets/
+└── Misc/
+```
+
+The structure can change over time depending on what is being archived.
+
+## ⚠️ Important
+
+This archive is **not intended to replace a proper backup system**.
+
+GitHub should not be used to store:
+
+* Passwords
+* API keys
+* Private credentials
+* Personal identification documents
+* Sensitive personal information
+* Large files that exceed GitHub's recommended limits
+
+For files that are too large or unsuitable for Git, use an appropriate storage or backup service.
+
+## 🎯 Goal
+
+The goal of this archive is simple:
+
+> **Keep useful files organized, accessible, and recoverable across devices and operating systems.**
+
+This allows me to restore important resources when changing computers, operating systems, or development environments.
